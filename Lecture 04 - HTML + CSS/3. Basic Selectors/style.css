@@ -34,3 +34,41 @@ button {
   color: rgba(255, 255, 255, 0.913);
   cursor: pointer;
 }
+
+/* Decendant Selector : to go futher inside p --> strong --> etc.*/
+p strong {
+  color: blueviolet;
+}
+
+/* Pseudo Selector */
+#try:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  text-align: center;
+}
+
+#trying:active {
+  text-transform: uppercase;
+}
+
+#username:focus {
+  background-color: blueviolet;
+  color: white;
+}
+
+a:visited {
+  color: green;
+}
+
+/* Structural Pseudo Classes */
+ul li:first-child{
+  font-style: italic;
+}
+
+/* ol li:nth-of-type(even){
+  background-color: blueviolet;
+} */
+
+ol li:nth-of-type(2n + 5){
+  background-color: blueviolet;
+}
