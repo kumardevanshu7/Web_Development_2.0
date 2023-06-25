@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tables</title>
+    <title>Tables Demo</title>
   </head>
   <body>
     <h1>Tables</h1>
-    <table>
+    <table border="5" cellpadding="10" cellspacing="10">
       <!-- table head -->
       <thead>
         <tr>
@@ -19,10 +19,33 @@
       </thead>
 
       <!-- table body -->
-      <tbody></tbody>
+      <tbody>
+        <tr>
+          <td> Mon</td>
+          <td> Eng</td>
+          <td rowspan="2"> Hindi</td>
+          <td> Eng</td>
+        </tr>
+        <tr>
+          <td> Tue</td>
+          <td> Games</td>
+          <!-- <td> Hindi</td> -->
+          <td> Math</td>
+        </tr>
+        <tr>
+          <td> Wed</td>
+          <td> Eng</td>
+          <td> Lib</td>
+          <td> Eng</td>
+        </tr>
+      </tbody>
 
       <!-- table foot -->
-      <tfoot></tfoot>
+      <tfoot>
+        <tr>
+          <th colspan="4"> Lunch</th>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
