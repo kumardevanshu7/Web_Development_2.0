@@ -82,7 +82,7 @@ label {
   text-transform: uppercase;
 }
 
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100px)*/
 #special::first-letter {
   color: green;
   font-size: 100px;
