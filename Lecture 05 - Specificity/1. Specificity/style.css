@@ -1,0 +1,64 @@
+section {
+  height: 200px;
+  width: 400px;
+  border: 3px solid black;
+  margin: 0px auto;
+  background-color: aqua;
+}
+
+#special {
+  background-color: lightcoral;
+}
+
+.some-section {
+  background-color: blue;
+}
+div {
+  height: 200px;
+  width: 400px;
+  border: 3px solid black;
+  margin: 0px auto;
+  background-color: aqua;
+}
+
+.a {
+  background-color: tomato;
+}
+
+.b {
+  background-color: lightgreen;
+}
+
+ul {
+  font-size: 40px;
+}
+
+/* ul li:nth-of-type(2){
+    border: 2px solid black;
+} */
+
+/* child combination */
+ul > li{
+    border-top: 2px solid teal;
+}
+
+/* forcible inherit */
+ul > li ol{
+    border-top: inherit;
+}
+
+ol li{
+    border-top: inherit;
+}
+
+/* adjacent selector : add many + signs */
+h2 + h2 + h2{
+    background-color: blueviolet;
+}
+
+/* general sibling */
+h1 ~ p{
+    background-color: lightpink;
+}
+
+

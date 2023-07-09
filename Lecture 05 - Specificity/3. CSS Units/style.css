@@ -1,0 +1,34 @@
+section {
+  height: 200px;
+  width: 400px;
+  border: 4px solid black;
+  background-color: aqua;
+}
+section div {
+  height: 40%;
+  width: 60%;
+  border: 3px solid black;
+  background-color: blue;
+  margin: 1px;
+}
+
+article{
+    font-size: 20px;
+}
+
+ul > li{
+    /* increasing */
+    font-size: 2em;
+    /* decreasing */
+    /* font-size: 0.5em; */
+
+    /* depends on HTML  */
+    font-size: 2rem;
+}
+
+div{
+    border: 4px solid black;
+    background-color: tomato;
+    height: 30vh;
+    width: 60vw;
+}
