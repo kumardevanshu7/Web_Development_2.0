@@ -12,23 +12,23 @@ section div {
   margin: 1px;
 }
 
-article{
-    font-size: 20px;
+article {
+  font-size: 20px;
 }
 
-ul > li{
-    /* increasing */
-    font-size: 2em;
-    /* decreasing */
-    /* font-size: 0.5em; */
+ul > li {
+  /* increasing */
+  font-size: 2em;
+  /* decreasing */
+  /* font-size: 0.5em; */
 
-    /* depends on HTML  */
-    font-size: 2rem;
+  /* depends on HTML  */
+  font-size: 2rem;
 }
 
-div{
-    border: 4px solid black;
-    background-color: tomato;
-    height: 30vh;
-    width: 60vw;
+div {
+  border: 4px solid black;
+  background-color: tomato;
+  height: 30vh;
+  width: 60vw;
 }
