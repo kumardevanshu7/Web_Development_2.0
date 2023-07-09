@@ -1,0 +1,22 @@
+p {
+  /* dimensions */
+  width: 50%;
+
+  /* border */
+  border: 2px solid black;
+
+  /* padding */
+  padding: 10px;
+
+  /* margin */
+  margin: 50px;
+
+  /* Means : 50px -> Top + Bottom & auto -> Left + Right */
+  /* margin: 50px 70px; */
+
+  /* Works on Clockwise Direction : Top -> Right -> Bottom -> Left */
+  /* margin: 50px 80px 60px 10px; */
+
+  /* Means : 50px -> Top + Bottom & auto -> Left + Right */
+  /* margin: 50px auto; */
+}
