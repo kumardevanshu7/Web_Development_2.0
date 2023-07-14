@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 2rem;
+  list-style-type: none;
+  display: inline-block;
+  padding: 1rem 0.5rem;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+}
+
+nav {
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+}
+
+#up {
+  position: absolute;
+  right: 20px;
+}
