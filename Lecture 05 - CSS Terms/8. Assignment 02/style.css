@@ -21,7 +21,7 @@
 
 #btn:hover {
   background-color: lightblue;
-  color: black;
+  color: rgb(26, 25, 25);
   cursor: pointer;
 }
 
