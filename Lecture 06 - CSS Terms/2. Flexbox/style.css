@@ -14,17 +14,43 @@
   /* this is going in Main Axis */
   /* justify-content: center; */
   /* justify-content: flex-end; */
-  justify-content: space-between;
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
   /* justify-content: space-evenly; */
   /* justify-content: space-around; */
 
   /* adjust in Cross Axis */
-  align-items: center;
+  /* align-items: center; */
+
+  /* flex direction : to chaning the direction of content*/
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
+
+  /* flex-wrapping demo*/
+  flex-wrap: wrap;
+
+  /* align-content demo : distribution of row space*/
+  align-content: flex-start;
+  /* align-content: end; */
 }
 
+/* div:nth-of-type(5) {
+  /* align-self: center; */
+  /* flex-basis: 400px;
+  flex-grow: 1; */
+/* } */
+
+/* div:nth-of-type(1) {
+  flex-grow: 1;
+  flex-shrink: 1;
+} */
+
 div {
-  width: 150px;
+  width: 200px;
   height: 150px;
   border: 2px solid black;
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

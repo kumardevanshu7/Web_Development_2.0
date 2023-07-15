@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#search {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 2px;
+  width: 500px;
+}
+
+#btn {
+  border: none;
+  padding: 0.7rem;
+  border-radius: 2px;
+  width: 100px;
+  font-weight: bold;
+  color: blue;
+}
+
+#btn:hover {
+  background-color: lightblue;
+  color: rgb(26, 25, 25);
+  cursor: pointer;
+}
+
+header nav {
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+#right-side {
+  margin-left: 30px;
+}
+
+select option {
+  padding: 10px;
+  font-size: large;
+}
+
+#logo {
+  width: 30%;
+  position: relative;
+  left: 190px;
+  top: 7px;
+}
+
+#search_icon {
+  position: relative;
+  right: 40px;
+  top: 7px;
+  width: 25px;
+}
+
+#cart {
+  position: relative;
+  right: 7px;
+  top: 6px;
+}
+
+select {
+  width: 20px;
+  background-color: blue;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  border: none;
+  margin: 20px 30px;
+  background-color: rgb(225, 239, 239);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+strong {
+  font-size: 1.2rem;
+}
+
+#img-pic {
+  border: 2.5px solid black;
+  width: 245px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#newBTN,
+h2,
+p {
+  margin: 10px;
+  padding: 5px;
+}
+
+figure {
+  border: 2.5px solid black;
+  width: 270px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  margin: 20px;
+}
+
+#newBTN {
+  background-color: greenyellow;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+i,
+strike {
+  color: red;
+  font-size: 15px;
+}
+
+#newBTN:hover {
+  background-color: green;
+  color: #f2f2f2;
+  cursor: pointer;
+}

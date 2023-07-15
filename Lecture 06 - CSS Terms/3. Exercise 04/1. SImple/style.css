@@ -1,0 +1,52 @@
+section {
+  border: none;
+  margin: 20px 30px;
+  background-color: rgb(225, 239, 239);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+strong {
+  font-size: 1.2rem;
+}
+
+figure {
+  border: 2.5px solid black;
+  width: 270px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+img {
+  border: 2.5px solid black;
+  width: 245px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button {
+  background-color: greenyellow;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+i,
+strike {
+  color: red;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: green;
+  color: #f2f2f2;
+  cursor: pointer;
+}
