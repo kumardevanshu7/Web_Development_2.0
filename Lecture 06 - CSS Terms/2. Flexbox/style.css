@@ -1,0 +1,30 @@
+#container {
+  width: 70vw;
+  border: 1px solid black;
+  background-color: rgb(36, 189, 240);
+  height: 650px;
+  margin: 30px auto;
+  display: flex;
+
+  /* for arranging the box : after displaying flex */
+
+  /* main axis - justify-content */
+  /* cross axis - align items */
+
+  /* this is going in Main Axis */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+
+  /* adjust in Cross Axis */
+  align-items: center;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  font-size: 3rem;
+}
