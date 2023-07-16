@@ -88,6 +88,10 @@ section {
   border-radius: 10px;
 }
 
+figure:hover{
+  box-shadow: 5px 5px 10px rgb(31, 31, 31);
+}
+
 strong {
   font-size: 1.2rem;
 }
