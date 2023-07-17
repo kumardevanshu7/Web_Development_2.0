@@ -1,0 +1,42 @@
+div {
+  background-color: aquamarine;
+  height: 500px;
+  width: 500px;
+  border-radius: 50px;
+  margin: 100px auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+section {
+  width: 80px;
+  height: 20px;
+  background-color: blueviolet;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  margin: 10px;
+  animation-name: equalizer;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+section:nth-of-type(1) {
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+section:nth-of-type(2) {
+  animation-timing-function: ease-in-out;
+}
+section:nth-of-type(3) {
+  animation-timing-function: ease-out;
+}
+section:nth-of-type(4) {
+  animation-timing-function: ease-in;
+}
+
+@keyframes equalizer {
+  100% {
+    height: 400px;
+  }
+}

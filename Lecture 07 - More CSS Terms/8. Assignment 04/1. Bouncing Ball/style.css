@@ -1,0 +1,25 @@
+div {
+  width: 700px;
+  height: 600px;
+  border-bottom: 2px solid black;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+section {
+  width: 120px;
+  animation-name: bouncing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.54, 0.87, 0.95, 0.99);
+  transform: rotate(190deg);
+}
+
+@keyframes bouncing {
+  100% {
+    transform: translateY(-400px);
+  }
+}

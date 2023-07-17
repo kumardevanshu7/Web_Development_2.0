@@ -1,0 +1,19 @@
+#fox{
+    width:140px;
+    display: flex;
+    margin: 100px auto;
+    transform: translateY(400px);
+    animation-name: bouncer;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes bouncer {
+    0%{
+        transform: translate(0px, 30px);
+        transform: rotate(0.5turn);
+    }
+       
+}

@@ -1,0 +1,33 @@
+#container {
+  width: 80wv;
+  border: 7px solid black;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+section article img {
+  float: left;
+  margin-right: 20px;
+}
+
+#second {
+  /* this will work when you apply float and this will check the last edge and go with that */
+  clear: left;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p{
+    /* different types of style in fonts */
+    line-height: 2;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+h1{
+    /* import from google font site */
+    font-family: 'Roboto Slab';
+}
