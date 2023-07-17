@@ -1,16 +1,23 @@
-section{
-    border: 2px solid black;
-    width: 400px;
-    margin:20px auto;
+section {
+  border: 2px solid black;
+  width: 400px;
+  height: 700px;
+  margin: 20px auto;
+
+  /* use overflow property in the MAIN BOX */
+  /* overflow: hidden; */
+  /* overflow: visible; */
+  overflow: scroll;
 }
 
-section ul{
-    list-style: none;
-    padding: 0;
+section ul {
+  list-style: none;
+  padding: 0;
 }
 
 section ul li {
-    border: 1px solid #ccc;
-    padding: 0.9rem;
-    border-radius: 8;
+  border: 1px solid #ccc;
+  padding: 0.9rem;
+  border-radius: 8;
+  font-size: 2rem;
 }
