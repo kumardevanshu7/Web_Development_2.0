@@ -15,7 +15,7 @@ section {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: cubic-bezier(0.54, 0.87, 0.95, 0.99);
-  transform: rotate(190deg);
+  transform: rotate(200deg);
 }
 
 @keyframes bouncing {
