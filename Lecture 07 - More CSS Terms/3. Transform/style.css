@@ -1,25 +1,39 @@
 h1 {
   text-align: center;
   font-size: 8rem;
+  margin: 300px;
+
+  /* normal use type of text shadow */
   /* text-shadow: 5px 5px 2px yellow, -5px -5px 2px rgb(75, 255, 75); */
   /* x-offset y-offset blur-radius color */
 
-  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%),
-    0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%),
-    0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
-    0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%),
-    0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
-    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
-    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+  /* copy from google for 3D text effect */
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
 
-    transition: 1s;
+  /* use transition to see the output changing effect by step-by-step : use every where wheather you used at margin or hover or etc otherwise it direct show the result. */
+  transition: 1s;
 }
 
-h1:hover{
-    /* transform: translateX(400px); */
-    /* transform:rotate(36000deg); */
-    /* transform: scale(4); */
-    transform: scaleX(2);
+h1:hover {
+  /* for rotation in 2d */
+  transform: rotate(45deg);
+
+  /* for 3d rotation(x, y, z, a) - use turn or deg */
+  /* transform: rotate3d(1, 1, 1, 300deg); */
+
+  /* for upscaling - use small values - front upscaling */
+  /* transform: scale(2); */
+
+  /* for descaling - use decimal values starts with 0 - backward descaling */
+  /* transform: scale(0.4); */
+
+  /* use translate to move the item - use this for MOVING (x-axis, y-axis) */
+  /* transform: translate(500px, 200px); */
 }
 
 body {
