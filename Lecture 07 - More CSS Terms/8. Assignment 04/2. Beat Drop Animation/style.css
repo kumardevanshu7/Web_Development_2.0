@@ -1,0 +1,33 @@
+div {
+  width: 400px;
+  height: 100px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: aqua;
+  margin: 300px auto;
+  animation-name: beatdrop;
+  animation-duration: 300ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+h1 {
+  animation-name: beatdrop-1;
+  animation-duration: 300ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes beatdrop {
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes beatdrop-1 {
+  100% {
+    transform: scale(1.9);
+  }
+}
