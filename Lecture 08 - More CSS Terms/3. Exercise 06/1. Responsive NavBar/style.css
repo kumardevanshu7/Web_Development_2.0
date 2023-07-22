@@ -24,9 +24,10 @@ nav ul {
   list-style: none;
 }
 
-@media screen and (width<= 451px){
-    nav, ul{
-        flex-direction: column;
-        align-items: center;
-    }
+@media screen and (width<= 461px) {
+  nav,
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
