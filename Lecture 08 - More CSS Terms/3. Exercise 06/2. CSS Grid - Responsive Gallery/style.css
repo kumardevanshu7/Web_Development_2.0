@@ -1,0 +1,29 @@
+section{
+    width: 1200px;
+    height: 570px;
+    border: 5px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+div{
+    overflow: hidden;
+}
+
+div img{
+    width: 380px;
+    padding: 10px;
+    
+}
+
+#pic_1:hover{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+
+
