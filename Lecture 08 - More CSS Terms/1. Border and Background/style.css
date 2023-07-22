@@ -1,0 +1,50 @@
+section {
+  width: 200px;
+  height: 200px;
+  /* border-color: black;
+    border-style: dashed;
+    border-width: 10px; */
+  /* above is similar to border: 10px solid black */
+
+  /* border-top: 10px solid aqua;
+    border-right: 10px dashed red; */
+
+  border: 20px solid black;
+
+  /* border-radius: 20px; */
+  /* Four values - border-radius: 15px 50px 30px 5px; (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner) */
+
+  /* Three values - border-radius: 15px 50px 30px; (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner) */
+
+  /* Two values - border-radius: 15px 50px; (first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners) */
+
+  /* One value - border-radius: 15px; (the value applies to all four corners, which are rounded equally */
+
+  border-radius: 50%;
+}
+
+article {
+  width: 1200px;
+  height: 500px;
+  border: 10px dashed green;
+  margin: 10px;
+  background-color: brown;
+  background-image: url(http://surl.li/jijwi);
+  background-repeat: no-repeat;
+  /* background-size:cover; */
+  background-size: contain;
+  background-position: center;
+  transition: 20s;
+
+  /* can give border inside the pic, if you are in the pic */
+  background-origin: border-box;
+  background-origin: padding-box;
+}
+
+/* just extra fun code */
+article:hover{
+    background-image: url(http://surl.li/jijxj);
+    background-position: left;
+    width: 600px;
+    
+}
