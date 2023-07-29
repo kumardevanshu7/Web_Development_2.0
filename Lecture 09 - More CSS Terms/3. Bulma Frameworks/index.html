@@ -1,27 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- This is the Bulma Framework CDN to connect there server -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>Example of Bulma Framework</title>
+  </head>
+  <body>
+    <!-- for boxes -->
     <div class="columns">
-        <div class="column is-narrow">
-          <div class="box" style="width: 200px;">
-            <p class="title is-5">Narrow column</p>
-            <p class="subtitle">This column is only 200px wide.</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <p class="title is-5">Flexible column</p>
-            <p class="subtitle">This column will take up the remaining space available.</p>
-          </div>
+      <div class="column is-narrow">
+        <div class="box" style="width: 200px">
+          <p class="title is-5">Narrow column</p>
+          <p class="subtitle">This column is only 200px wide.</p>
         </div>
       </div>
-    
-</body>
+      <div class="column">
+        <div class="box">
+          <p class="title is-5">Flexible column</p>
+          <p class="subtitle">
+            This column will take up the remaining space available.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- for container -->
+    <div class="container">
+      <div class="notification is-primary">
+        This container is <strong>centered</strong> on desktop and larger
+        viewports.
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- for media elements -->
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <img src="https://bulma.io/images/placeholders/128x128.png" />
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="field">
+          <p class="control">
+            <textarea
+              class="textarea"
+              placeholder="Add a comment..."
+            ></textarea>
+          </p>
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <a class="button is-info">Submit</a>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <label class="checkbox">
+                <input type="checkbox" /> Press enter to submit
+              </label>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </article>
+  </body>
 </html>
