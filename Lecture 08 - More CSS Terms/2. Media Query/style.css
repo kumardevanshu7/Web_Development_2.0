@@ -15,7 +15,7 @@ section p {
 }
 
 /* using "and Logical gate" here */
-@media screen and (width<= 1041px) {
+@media screen and (width<= 1040px) {
   h1 {
     transition: 1s;
     font-size: 2rem;
