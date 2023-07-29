@@ -17,8 +17,8 @@ div img {
   object-fit: cover;
 }
 
-div{
-    position: relative;
+div {
+  position: relative;
 }
 
 #box-1,
@@ -35,17 +35,16 @@ div img:hover {
   filter: grayscale(80%);
 }
 
-.fas.fa-camera{
-    font-size: 3.5rem;
-    /* z-index: 3; */
-    position: absolute;
-    top: 37%;
-    left: 43%;
-    transform: scale(0);
-    transition: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+.fas.fa-camera {
+  font-size: 3.5rem;
+  /* z-index: 3; */
+  position: absolute;
+  top: 37%;
+  left: 43%;
+  transform: scale(0);
+  transition: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-#big-box div:hover i{
-    transform: scale(1.5);
+#big-box div:hover i {
+  transform: scale(1.5);
 }
-
