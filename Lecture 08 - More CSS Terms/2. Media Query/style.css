@@ -1,37 +1,40 @@
-section{
-    width: 80vw;
-    border: 2px solid black;
-    margin: 20px auto;
-    padding: 1rem;
+section {
+  width: 80vw;
+  border: 2px solid black;
+  margin: 20px auto;
+  padding: 1rem;
 }
 
-section h1{
-    font-size: 3rem;
-    text-align: center;
+section h1 {
+  font-size: 3rem;
+  text-align: center;
 }
 
-section p{
-    font-size: 1.5rem;
+section p {
+  font-size: 1.5rem;
 }
 
-@media screen and (width<= 1041px){
-    h1{
-        transition: 1s;
-        font-size: 2rem;
-        color: red;
-    }
+/* using "and Logical gate" here */
+@media screen and (width<= 1041px) {
+  h1 {
+    transition: 1s;
+    font-size: 2rem;
+    color: red;
+  }
 }
 
-@media screen and (width<= 725px){
-    h1{
-        transition: 1s;
-        font-size: 1rem;
-        color: green;
-    }
+/* this will work when screen width is less than 725px */
+@media screen and (width<= 725px) {
+  h1 {
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(128, 117, 0);
+  }
 }
 
-@media screen and (width>= 1000px), (orientation:portrait){
-    section{
-        background-color: green;
-    }
+/* using "and Logical gate (and)" + "or logical gate (,)"here */
+@media screen and (width>= 1000px), (orientation: portrait) {
+  section {
+    background-color: green;
+  }
 }
