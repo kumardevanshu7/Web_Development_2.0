@@ -1,6 +1,7 @@
 /* all initializing elements are defined in the :root */
 /* use only hyphen -- */
 :root {
+  /* write anyname start with double-hyphen (--) */
   --border-ka-color: purple;
   --border-ka-style: solid;
   --border-ka-width: 20px;
@@ -12,7 +13,7 @@
 }
 
 h1 {
-    /* all variables use by var() */
+  /* all variables use by var() */
   border-color: var(--border-ka-color);
   border-width: var(--border-ka-width);
   border-style: var(--border-ka-style);
