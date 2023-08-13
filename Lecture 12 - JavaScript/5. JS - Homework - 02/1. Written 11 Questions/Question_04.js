@@ -1,4 +1,4 @@
-// Ques.4. You are given a number n. You have to print the table for that number.
+// Ques.4. You are given a number n. You have to print the Table for that number.
 
 // let n = 4;
 
