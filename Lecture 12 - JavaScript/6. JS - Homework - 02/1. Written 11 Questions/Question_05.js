@@ -1,6 +1,6 @@
 // Ques.5. You are given a number n. You have to check whether the number is palindrome
 
-// using two pointer approach
+// using two-pointer approach
 
 let boy = "arra";
 let i = 0;
