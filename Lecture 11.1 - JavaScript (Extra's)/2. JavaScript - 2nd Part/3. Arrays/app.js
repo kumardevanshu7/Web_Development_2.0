@@ -1,4 +1,4 @@
-// ------------------------------------------> ARRAYS --------------------------------------->
+// -------------------------------------------> ARRAYS ---------------------------------------->
 
 let arr = [1, 2, 3, 4, 5];
 
@@ -89,11 +89,11 @@ false;
 // --------------------> splice()
 // ----> slice(start, delete three items, insert new values)
 
-new_Colors = ['black', 'pink', 'green', 'purple', 'gold']
+new_Colors = ["black", "pink", "green", "purple", "gold"];
 
-new_Colors.splice(1, 3, "zanu")
+new_Colors.splice(1, 3, "zanu");
 // output : ['pink', 'green', 'purple']
-new_Colors
+new_Colors;
 // output : ['black', 'zanu', 'gold']
 
 // --------------------> split()
