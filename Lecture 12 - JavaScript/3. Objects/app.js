@@ -1,10 +1,11 @@
-const person = {
-    name: 'Devanshu',
-    age: 22,
-    isAdult : true,
-    favColors: ['Blue', 'Green']
+// -------------------------------------------- OBJECTS ----------------------------------------
 
-}
+const person = {
+  name: "Devanshu",
+  age: 22,
+  isAdult: true,
+  favColors: ["Blue", "Green"],
+};
 
 console.log(person);
 console.log(person.name);
@@ -12,7 +13,7 @@ console.log(person.name);
 console.log(person["name"]);
 
 // add the property : it will add it in the Last
-person.gender = 'male';
+person.gender = "male";
 
 // to delete the person name
 // delete person.name
@@ -30,5 +31,3 @@ console.log(Object.values(person));
 
 // print the both in the form of Arrays
 console.log(Object.entries(person));
-
-
