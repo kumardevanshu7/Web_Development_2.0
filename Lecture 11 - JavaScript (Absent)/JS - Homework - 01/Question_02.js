@@ -1,4 +1,4 @@
-// 2. Write a JS program to solve quadratic equations (use if, else if and else). (ax^2 + bx + c)
+// Ques.2. Write a JS program to solve quadratic equations (use if, else if and else). (ax^2 + bx + c)
 
 let a = prompt("Enter Your 1st Number: ");
 let b = prompt("Enter Your 2nd Number: ");
