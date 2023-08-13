@@ -26,9 +26,8 @@ str.trim();
 
 // -------------------------------------------------------------------------------------------------------
 
-// FUNCTION CHAINING
+// --------------------- FUNCTION CHAINING
 // use multiple methods at once
-
 str.trim().toLowerCase();
 // 'zanu ji love you'
 
