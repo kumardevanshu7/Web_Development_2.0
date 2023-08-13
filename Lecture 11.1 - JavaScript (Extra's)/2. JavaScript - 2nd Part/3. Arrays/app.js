@@ -14,8 +14,8 @@ arr[4];
 // --------> arrays are Hetrogeneous : contains different types of data at once
 const randomarr = [
   1,
-  2,
   true,
+  2,
   null,
   undefined,
   ["Apple", "Mango"],
