@@ -1,3 +1,5 @@
+// --------------------------------------------------- ARRAYS -----------------------------------------
+
 // arrays are Hetrogenous
 // const randomArray = [true, false, 32678, 'Hello World']
 
@@ -6,7 +8,7 @@
 // const colors =['green', 'orange', 'pink'];
 // colors.length
 
-//  arrays basic method
+//  ---------------------------------------------- Arrays Basic Method -------------------------------------
 const colors = ["green", "orange", "pink", "black", "yellow"];
 
 // ----------> Pushing Methods
@@ -31,24 +33,3 @@ const colors = ["green", "orange", "pink", "black", "yellow"];
 
 // url.split('/');
 // (5) ['http:', '', '127.0.01', 'users', 'profile.jpg']
-
-
-
-// copyWithin()
-// every()
-// filter()
-// flat()
-// flatMap()
-// forEach()
-// 
-// lastIndexOf()
-// map()
-// reduce()
-// reduceRight()
-// 
-//
-// some()
-// sort()
-// 
-
-
