@@ -14,4 +14,5 @@ for (let word of words) {
   res.push(reversedWord); // pushing every word
 }
 
+// final output
 console.log(res.join(" ")); // join the the all words into sentence
