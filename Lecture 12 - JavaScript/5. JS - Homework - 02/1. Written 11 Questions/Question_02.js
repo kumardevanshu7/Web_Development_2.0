@@ -1,4 +1,4 @@
-// Ques.2. You are given a number n. find sum of all the numbers upto n.
+// Ques.2. You are given a number n. Find sum of all the numbers upto n.
 
 let n = 4;
 let sum = 0;
