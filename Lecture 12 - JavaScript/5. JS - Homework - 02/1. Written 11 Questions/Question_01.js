@@ -1,4 +1,4 @@
-// Ques.1. You are given a number n .print all the even numbers upto n.
+// Ques.1. You are given a number n. Print all the even numbers upto n.
 
 let n = 20;
 
