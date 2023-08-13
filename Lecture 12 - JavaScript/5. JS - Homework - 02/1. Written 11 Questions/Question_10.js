@@ -1,4 +1,4 @@
-// Ques.10. You are given a string = "This fox jumps over a white lazy dog"
+// Ques.10. You are given a String = "This fox jumps over a white lazy dog"
 //                                   "dog lazy white a over jumps fox This"
 
 let string = "This fox jumps over a white lazy dog";
