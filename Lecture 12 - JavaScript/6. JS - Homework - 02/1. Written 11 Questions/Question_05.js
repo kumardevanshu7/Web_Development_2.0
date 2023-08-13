@@ -2,7 +2,7 @@
 
 // using two-pointer approach
 
-let boy = "arra";
+let boy = "1234321";
 let i = 0;
 let j = boy.length - 1;
 let isPalindrome = true;
