@@ -1,4 +1,4 @@
-// Ques.7. Print all the factors of a given number.
+// Ques.7. Print all the Factors of a given number.
 
 let num = 20;
 for (let i = 1; i <= num; i++) {
