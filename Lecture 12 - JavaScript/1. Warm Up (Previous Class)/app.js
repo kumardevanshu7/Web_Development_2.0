@@ -14,7 +14,7 @@ const secondNum = num2 * 1000;
 // check if integer is equal
 
 if (parseInt(firstNum) - parseInt(secondNum) === 0) {
-  console.log("Numbers are equal");
+  console.log("Numbers are Equal");
 } else {
-  console.log("Not Equal");
+  console.log("Numbers are Not Equal");
 }
