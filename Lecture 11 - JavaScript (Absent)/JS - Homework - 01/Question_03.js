@@ -2,7 +2,7 @@
 
 const principal = parseInt(prompt("Enter the principal:"));
 const rate = parseInt(prompt("Enter the rate of interest:"));
-const time = parseInt(prompt("Enter the time: "));
+const time = parseInt(prompt("Enter the Time: "));
 
 const simpleInterest = (principal * rate * time) / 100;
 
