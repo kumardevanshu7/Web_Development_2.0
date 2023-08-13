@@ -1,6 +1,6 @@
-// Using External JavaScript
+// ---------------------------------------- Using External JavaScript ---------------------------------
 
-console.log('Love You Sreshta!');
+console.log("Love You Sreshta!");
 
 // -------------------------------------------------------------------------------------------------------
 
@@ -9,7 +9,7 @@ console.log('Love You Sreshta!');
 let firstName = "Zainab";
 let lastName = "Zubair";
 
-let fullName = 'Mrs. ' + lastName + " " + firstName; // not a better way to write
+let fullName = "Mrs. " + lastName + " " + firstName; // not a better way to write
 
 // use string template laterals
 fullName = `Mrs. ${lastName} ${firstName}.`;
