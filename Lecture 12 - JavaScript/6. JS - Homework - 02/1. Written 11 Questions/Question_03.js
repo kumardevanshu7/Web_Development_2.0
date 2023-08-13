@@ -12,4 +12,4 @@ let strReverse = numStr.split("").reverse().join("");
 
 let reverseStr = parseInt(strReverse);
 
-console.log(reverseStr);
+console.log(reverseStr); // print the reverse order
