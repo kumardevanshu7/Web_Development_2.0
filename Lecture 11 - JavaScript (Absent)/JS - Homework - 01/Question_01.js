@@ -1,4 +1,4 @@
-// Ques.1. Write a js program to get a number from the user and print whether it is positive or negative.
+// Ques.1. Write a JS program to get a number from the user and print whether it is positive or negative.
 
 let a = prompt("Enter 1st Number: ");
 
