@@ -1,4 +1,4 @@
-// Ques.8. Convert given temprature in celcius to Fahrenheit (Google the formula)
+// Ques.8. Convert given temprature in Celcius to Fahrenheit (Google the formula)
 
 let Celsius = 25;
 
