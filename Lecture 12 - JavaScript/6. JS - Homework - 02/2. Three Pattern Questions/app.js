@@ -14,7 +14,7 @@ for (let i = row; i >= 1; i--) {
   console.log(stars);
 }
 
-// Showing Errors
+// Showing Errors after this
 
 // 2nd Pattern : Like
 //          *
