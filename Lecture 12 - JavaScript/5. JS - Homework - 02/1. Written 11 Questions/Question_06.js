@@ -1,6 +1,6 @@
-// Ques.6. You are given a number n . You have to check whether the given number is armstrong number
+// Ques.6. You are given a number n . You have to check whether the given number is armstrong number.
 //     e.g : 371
-//         27+343+1 =>371 - is a armstrong number
+//     27+343+1 =>371 - is a armstrong number
 
 let num = 371;
 let temp = num;
