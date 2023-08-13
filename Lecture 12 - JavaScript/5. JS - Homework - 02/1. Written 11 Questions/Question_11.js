@@ -1,4 +1,4 @@
-// Ques.11. You are given a string = "This fox jumps over a white lazy dog"
+// Ques.11. You are given a String = "This fox jumps over a white lazy dog"
 //                                   "sihT xof spmuj revo a etihw yzal god"
 
 const sentance = "This fox jumps over a white lazy dog";
