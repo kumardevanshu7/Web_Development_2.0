@@ -1,4 +1,4 @@
-// 9.You are given two numbers n and m. find the sum of all numbers in this range(n and m including).
+// 9.You are given two numbers n and m. find the sum of all numbers in this range (n and m including).
 
 let n = 7;
 let m = 3;
