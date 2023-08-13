@@ -12,4 +12,4 @@ let newStr_01 = newStr.reverse();
 let finalSentence = newStr_01.join(" ");
 // output : 'dog lazy white a over jumps fox This'
 
-console.log(finalSentence);
+console.log(finalSentence); // final output
