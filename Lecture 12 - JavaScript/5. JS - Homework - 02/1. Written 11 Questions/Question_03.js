@@ -1,4 +1,4 @@
-// Ques.3. You are given a number n. Reverse all the digit in a number
+// Ques.3. You are given a number n. Reverse all the digit in a number.
 //     e.g.1->  = 54123
 //     anss = 32145
 
